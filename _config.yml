@@ -19,7 +19,7 @@ locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : "Soo's Biolog"
 title_separator          : "-"
-subtitle                 : "Hey"
+subtitle                 : "Beginner"
 name                     : "Soo"
 description              : "An amazing website."
 url                      : "https://SooWW.github.io"
