@@ -49,6 +49,7 @@ comments:
     issue_term           : # "pathname" (default)
   
   giscus:
+    repo                 : "SooWW/SooWW.github.io"
     repo_id              : "R_kgDOTmElNw" # Shown during giscus setup at https://giscus.app
     category_name        : "Announcements" # Full text name of the category
     category_id          : "DIC_kwDOTmElN84DCO53" # Shown during giscus setup at https://giscus.app
