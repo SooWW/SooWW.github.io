@@ -17,12 +17,18 @@ search: false
 }
 
 /* 기본 글자 크기 */
-$doc-font-size: 16px; // 원하는 크기로 숫자를 변경해 보세요!
+$doc-font-size: 12px; // 원하는 크기로 숫자를 변경해 보세요!
 
 /* 2. 블로그 전체 폰트 변수 지정 */
 $global-font-family: 'GowoonDodum', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$header-font-family: 'GowoonDodum', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$caption-font-family: 'GowoonDodum', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
 /* 3. 본문 및 전체 영역에 폰트 적용 */
-body {
-  font-family: $global-font-family;
+body, 
+h1, h2, h3, h4, h5, h6,
+.site-title, 
+.site-nav, 
+.archive__item-title {
+  font-family: $global-font-family !important;
 }
