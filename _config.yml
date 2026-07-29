@@ -15,6 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
+date_format              : "%B %d, %Y"
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : "Soo's Biolog"
@@ -327,7 +328,9 @@ defaults:
       path: ""
       type: posts
     values:
+      read_time: true
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       comments: true
