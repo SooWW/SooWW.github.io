@@ -38,13 +38,20 @@ $doc-font-size: 20px; // 원하는 크기로 숫자를 변경해 보세요!
 /* 본문 및 전체 영역에 폰트 적용 */
 body, 
 h1, h2, h3, h4, h5, h6,
-.site-title, 
-.site-subtitle,
 .archive__item-title {
   font-family: 'GowoonDodum', sans-serif !important;
 }
 
+.site-title, 
+.site-subtitle {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+.sidebar,
+.sidebar *,
 .author__name,
+.author__urls,
+.author__urls *,
 .author__bio {
   font-family: 'GowoonDodum', sans-serif !important;
 }
