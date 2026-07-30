@@ -8,6 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* 좌우 여백 설정 */
+$right-sidebar-width: 200px !default;
+
 /* 고운돋움 웹폰트 설정 */
 @font-face {
     font-family: 'GowoonDodum';
