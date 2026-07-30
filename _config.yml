@@ -20,7 +20,7 @@ locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : "Soo's Biolog"
 title_separator          : "-"
-subtitle                 : "Beginner"
+subtitle                 :
 name                     : "Soo"
 description              : "An amazing archive for science/book/coding."
 url                      : "https://SooWW.github.io"
@@ -125,7 +125,7 @@ author:
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
+      icon: # "fas fa-fw fa-square-envelope"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
