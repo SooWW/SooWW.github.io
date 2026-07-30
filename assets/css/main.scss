@@ -39,8 +39,9 @@ $doc-font-size: 20px; // 원하는 크기로 숫자를 변경해 보세요!
 body, 
 h1, h2, h3, h4, h5, h6,
 .site-title, 
+.site-subtitle,
 .archive__item-title {
-  font-family: 'GowoonDodum', -apple-system, sans-serif !important;
+  font-family: 'GowoonDodum', sans-serif !important;
 }
 
 .author__name,
