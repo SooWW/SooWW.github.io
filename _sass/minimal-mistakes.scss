@@ -3,6 +3,9 @@
 
 /* Variables */
 @import "minimal-mistakes/variables";
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 270px !default;
+$right-sidebar-width-side: 350px !default; //3줄 추가함.
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
