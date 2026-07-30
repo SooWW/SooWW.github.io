@@ -20,14 +20,7 @@ search: false
 @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
-    font-weight: 200;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Pretendard';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
-    font-weight: 500;
+    font-weight: 400;
     font-display: swap;
 }
 
@@ -40,7 +33,7 @@ search: false
 
 
 /* 기본 글자 크기 */
-$doc-font-size: 8px; // 원하는 크기로 숫자를 변경해 보세요!
+$doc-font-size: 20px; // 원하는 크기로 숫자를 변경해 보세요!
 
 /* 본문 및 전체 영역에 폰트 적용 */
 body, 
@@ -53,4 +46,5 @@ h1, h2, h3, h4, h5, h6,
 .author__name,
 .author__bio {
   font-family: 'Pretendard', serif !important;
+  font-weight: 400 !important;
 }
