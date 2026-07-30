@@ -8,12 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 좌우 여백 설정 */
-#main {
-  padding-left: 1em !important;
-  padding-right: 1em !important;
-}
-
 
 
 /* 고운돋움 웹폰트 설정 */
